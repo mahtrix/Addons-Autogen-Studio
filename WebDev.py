@@ -18,7 +18,7 @@ def create_presentation():
     # Créer une deuxième diapositive avec une image
     slide2 = Slide()
     title2 = Text("Exemple de Projet", font_size=40, bold=True)
-    image_path = "example_image.png"  # Remplacez par le chemin de votre image
+    image_path = "C:\\Users\\mahtrix\\Images\\mahFace.png"  # Remplacez par le chemin de votre image
     image2 = Image(image_path, width=500, height=300)
     slide2.add_element(title2)
     slide2.add_element(image2)
